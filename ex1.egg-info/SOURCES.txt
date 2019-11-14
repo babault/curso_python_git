@@ -1,0 +1,12 @@
+README.md
+setup.py
+ex1/args.py
+ex1/operadores.py
+ex1.egg-info/PKG-INFO
+ex1.egg-info/SOURCES.txt
+ex1.egg-info/dependency_links.txt
+ex1.egg-info/not-zip-safe
+ex1.egg-info/requires.txt
+ex1.egg-info/top_level.txt
+ex1/app/__init__.py
+ex1/app/op.py

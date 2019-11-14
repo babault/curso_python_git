@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: ex1
+Version: 0.1
+Summary: Operadores
+Home-page: http://github.com/babault//ex1
+Author: Julien Babault
+Author-email: julien.jbabault@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Keywords: operadores con comandos
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Text Processing :: Linguistic
