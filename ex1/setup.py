@@ -27,7 +27,7 @@ from setuptools import setup
 #    with open('README.org') as f:
 #        return f.read()
 
-setup(name='julienfunniest',
+setup(name='ex1',
       version='0.1', # antes version 0.4
       description='The funniest joke in the world',
 #      long_description=readme(),
@@ -38,12 +38,12 @@ setup(name='julienfunniest',
         'Topic :: Text Processing :: Linguistic',
       ],
       keywords='funniest joke comedy flying circus',
-      scripts=['julienfunniest/bin/funniest-joke'],
-      url='http://github.com/babault/julienfunniest',
+      scripts=['ex1/app/funniest-joke'],
+      url='http://github.com/babault//ex1',
       author='Julien Babault',
       author_email='julien.jbabault@gmail.com',
       license='GPLv3',
-      packages=['julienfunniest'],
+      packages=['ex1'],
       install_requires=[
           'markdown',
       ],
