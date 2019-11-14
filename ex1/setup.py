@@ -29,7 +29,7 @@ from setuptools import setup
 
 setup(name='ex1',
       version='0.1', # antes version 0.4
-      description='The funniest joke in the world',
+      description='Operadores',
 #      long_description=readme(),
       classifiers=[
         'Development Status :: 3 - Alpha',
@@ -37,8 +37,8 @@ setup(name='ex1',
         'Programming Language :: Python :: 3.6',
         'Topic :: Text Processing :: Linguistic',
       ],
-      keywords='funniest joke comedy flying circus',
-      scripts=['ex1/app/funniest-joke'],
+      keywords='operadores con comandos',
+      scripts=['ex1/app/op'],
       url='http://github.com/babault//ex1',
       author='Julien Babault',
       author_email='julien.jbabault@gmail.com',
@@ -47,10 +47,10 @@ setup(name='ex1',
       install_requires=[
           'markdown',
       ],
-      test_suite='nose.collector',
-      tests_require=['nose', 'nose-cover3'],
-      entry_points={
-          'console_scripts': ['funniest-joke=funniest.command_line:main'],
-    },
+#      test_suite='nose.collector',
+#      tests_require=['nose', 'nose-cover3'],
+#      entry_points={
+#          'console_scripts': ['funniest-joke=funniest.command_line:main'],
+#    },
       include_package_data=True,
       zip_safe=False)
